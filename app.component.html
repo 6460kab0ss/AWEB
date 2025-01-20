@@ -1,0 +1,54 @@
+{{todaydate}} <br>
+{{componentproperty}}
+<app-new-cmp></app-new-cmp>
+<!-- <div> 
+  Today's date :- {{presentDate}}
+  <div> 
+    Today's date :- {{presentDate | date }}
+ </div> 
+</div>
+
+<div>
+  This is a short date :- {{presentDate | date:'shortDate'}} <br/>
+  This line shows the full date :- {{presentDate | date:'fullDate'}} <br/>
+  This line shows the formatted date :- {{presentDate | date:'M/dd/yyyy'}} <br/> 
+   This indicate the hours and minutes :- {{presentDate | date:'h:mm'}} <br/>
+</div>
+
+<div>
+  Date with uppercase :- {{presentDate | date: 'fullDate' | uppercase}} <br/>
+  Date with lowercase :- {{presentDate | date: 'medium' | lowercase}} <br/>
+</div>
+
+<h3> Currency Pipe</h3>
+<p>{{price | currency:'':true}}</p>
+<p>{{price | currency:'USD'}}</p>
+
+<h3> Slice Pipe</h3>
+<div>
+  <h3>Start index:- {{Fruits | slice:2}}</h3>
+  <h3>Start and end index:- {{Fruits | slice:1:4}}</h3></div>
+  <h3>Negative index:- {{Fruits | slice:-2}}</h3>
+  <h3>Negative start and end index:- {{Fruits | slice:-4:-2}}</h3>
+
+<h2>Key-Value Pipes!</h2>
+<p>Default Key-Value pipe</p>
+<div *ngFor="let item of testObject | keyvalue">
+  {{ item.key}} - {{ item.value }}
+</div>
+
+<div>
+  <h3> Decimal Page</h3>
+  <p> {{ decimalNum1 | number: '3.1' }} </p>
+  <p> {{ decimalNum2 | number: '2.1-4' }}</p>
+</div>
+
+
+<h2>Json Pipes!</h2>
+<p>Object: {{ testObject }}</p>
+<p>Object with JsonPipe: {{ testObject | json }}</p>
+<p>array: {{ testArray }}</p>
+
+<p>Sort by increasing expiry dates</p> -->
+
+<router-outlet />
